@@ -4,7 +4,7 @@
 
 > **Nota importante**: Este documento se enfoca en aspectos técnicos y procedimientos. Para análisis comparativos, reflexiones personales y conclusiones, utiliza el archivo `CONCLUSIONES_EVALUACION.md`.
 
-**Autores**: [Nombre 1] y [Nombre 2]
+**Autores**: Jhonny y Mario
 **Fecha V0**: [Fecha de entrega inicial]
 **Fecha V1**: [Fecha de entrega final]
 
