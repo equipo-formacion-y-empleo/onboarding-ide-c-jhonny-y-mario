@@ -4,7 +4,7 @@
 
 > **Nota importante**: Este documento se enfoca en aspectos técnicos y procedimientos. Para análisis comparativos, reflexiones personales y conclusiones, utiliza el archivo `CONCLUSIONES_EVALUACION.md`.
 
-**Autores**: [Nombre 1] y [Nombre 2]
+**Autores**: Jhonny y Mario
 **Fecha V0**: [Fecha de entrega inicial]
 **Fecha V1**: [Fecha de entrega final]
 
@@ -14,14 +14,14 @@
 
 ### Instalación y Verificación
 
-**Método de instalación:** [Especifica el método recomendado]
+**Método de instalación:** [desde la pagina oficial del Visual Studio Code]
 
 > **💡 Sobre las imágenes**: Incluye capturas de pantalla para mostrar los diferentes pasos o resultados. Ejemplo: ![Descripción clara del contenido](screenshots/placeholder.png)`
 
 **Proceso de instalación:**
-- **Descarga:** [Describir el proceso]
-- **Opciones del instalador:** [Documentar las opciones que se consideraron importantes]
-- **Verificación:** [Cómo verificar que funciona]
+- **Descarga:** ir a la pagina **http://code.visualstudio.com/**, hacer click en el boton `download for windows` o el sistema de su preferencia, se descargara un archivo insatalador como VSCodeUserSETUP-X64
+- **Opciones del instalador:** Buscar la direccion donde se guardo el archivo,ejecutar el archivo, aceptar terminos y licencias, dar click en next, elegir ubicacion donde quiera instalar y en la parte de `select additional task` marcar `Path` hacer click en instalar y esperar a que finalice, luego click en `Finish` y esperar que el instalador finalice.
+- **Verificación:** Desde la interfaz, abrimos Visual Studio Code, si ves en la ventana principal con opciones como "Open Folder", "New File", etc., la instalación fue exitosa. 
 
 *Es posible documentar múltiples métodos.*
 
