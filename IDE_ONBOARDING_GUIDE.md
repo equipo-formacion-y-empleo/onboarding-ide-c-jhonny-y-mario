@@ -14,13 +14,13 @@
 
 ### Instalación y Verificación
 
-**Método de instalación:** [desde la pagina oficial del Visual Studio Code]
+**Método de instalación:** [Desde la pagina oficial del Visual Studio Code: https://code.visualstudio.com/](screenshots/screenshot1.png)
 
 > **💡 Sobre las imágenes**: Incluye capturas de pantalla para mostrar los diferentes pasos o resultados. Ejemplo: ![Descripción clara del contenido](screenshots/placeholder.png)`
 
 **Proceso de instalación:**
-- **Descarga:** ir a la pagina **http://code.visualstudio.com/**, hacer click en el boton `download for windows` o el sistema de su preferencia, se descargara un archivo insatalador como VSCodeUserSETUP-X64
-- **Opciones del instalador:** Buscar la direccion donde se guardo el archivo,ejecutar el archivo, aceptar terminos y licencias, dar click en next, elegir ubicacion donde quiera instalar y en la parte de `select additional task` marcar `Path` hacer click en instalar y esperar a que finalice, luego click en `Finish` y esperar que el instalador finalice.
+- **Descarga:** [Ir a la pagina **http://code.visualstudio.com/**, hacer click en el boton `download for windows` o el sistema de su preferencia, se descargara un archivo insatalador como VSCodeUserSETUP-X64](screenshots/screenshot2.png)
+- **Opciones del instalador:** [Buscar la direccion donde se guardo el archivo, ejecutar el archivo, aceptar terminos y licencias, dar click en next, elegir ubicacion donde quiera instalar y en la parte de `select additional task` marcar `Path` hacer click en instalar y esperar a que finalice, luego click en `Finish` y esperar que el instalador finalice.](IMAGENNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN)
 - **Verificación:** Desde la interfaz, abrimos Visual Studio Code, si ves en la ventana principal con opciones como "Open Folder", "New File", etc., la instalación fue exitosa. 
 
 *Es posible documentar múltiples métodos.*
@@ -28,10 +28,23 @@
 ### Uso Básico de VS Code
 
 **Navegación y funcionalidades básicas:**
-- Navegación por la interfaz
-- Edición de código
-- Uso de la paleta de comandos
-- Gestión de archivos y carpetas
+
+- Navegación por la interfaz: La interfaz de VSCode se organiza en cinco áreas principales. 
+`la barra de actividades` se sitúa en el extremo izquierdo y proporciona acceso directo a las vistas principales como Explorer, Search, Source Control, Run and Debug, y Extensions.
+
+`La barra lateral` ocupa el espacio adyacente de la barra de actividades y muestra el contenido de la vista seleccionada. Cuando seleccionas el Explorer, por ejemplo, la barra lateral muestra la estructura de archivos y carpetas de tu proyecto actual.
+
+`El grupo de edicion` constituye el área central donde se abren y editan los archivos. 
+
+`EL Panel` se encuentra en la parte inferior y tiene la terminal integrada, los problemas detectados, la salida de depuración y los resultados de búsqueda.
+
+`La Barra de Estados` en la parte inferior proporciona información contextual sobre el archivo actual, incluyendo el lenguaje de programación, la codificación, la posición del cursor y el estado del control de versiones.
+
+- Edición de código: en el grupo de edicion es donde se ejecuta esta funcion.
+
+- Uso de la paleta de comandos: representa una de las características más potentes. Accesible mediante Ctrl+Shift+P (Windows/Linux) o Cmd+Shift+P (macOS), proporciona acceso instantáneo a prácticamente cualquier comando disponible en el editor.
+
+- Gestión de archivos y carpetas: Los espacios de trabajo en VSCode permiten organizar proyectos complejos que involucran múltiples carpetas o repositorios. Un espacio de trabajo puede incluir configuraciones específicas, extensiones recomendadas y ajustes de depuración particulares.
 
 ### Personalización del Entorno
 
