@@ -702,7 +702,7 @@ Para empezar, cree un proyecto de aplicación de C#. El tipo de proyecto incluye
 
 ``Paso 2`` En la ventana Crear un nuevo proyecto, seleccione C# de la lista desplegable de lenguajes. Elija Windows en la lista de plataformas y Console en la lista de tipos de proyecto.
 Después de aplicar los filtros de idioma, plataforma y tipo de proyecto, seleccione la plantilla aplicación de consola y, a continuación, seleccione Siguiente.
-    NOTA
+    *NOTA*
     Si no ve la plantilla Aplicación de consola, seleccione Instalar más herramientas y [características.](screenshots/screenshot71.png)
     En Instalador Visual Studio, seleccione la carga de trabajo Desarrollo de escritorio de [.NET.](screenshots/screenshot72.png)
     Seleccione Modificar en el Instalador de Visual Studio. Es posible que se le pida que guarde su trabajo. Seleccione Continuar para instalar la carga de trabajo.
@@ -770,12 +770,35 @@ Uso práctico:
 ## Configuración de Lenguaje Adicional
 
 **Lenguaje seleccionado:** [Java/Python/Otro] - **Justificación:** [Por qué se eligió este lenguaje]
-
+*PYTHON*
 ### Instalación del Entorno
 
 **Runtime/SDK:**
-- **Descarga e instalación:** [Proceso paso a paso]
+- **Descarga e instalación:** 
+  ``Descarga e instalación de la carga de trabajo de Python``
+Complete los pasos siguientes para descargar e instalar la carga de trabajo de Python.
+
+  ``Paso 1`` Descargue y ejecute el instalador de Visual Studio más reciente para Windows. La    compatibilidad con Python está presente en la versión 15.2 y posteriores. Si ya tiene Visual Studio instalado, abra Visual Studio y ejecute el instalador seleccionando Tools>Obtener herramientas y características.
+
+  ``Paso 2``El instalador proporciona una lista de cargas de trabajo que son grupos de opciones relacionadas para áreas de desarrollo específicas. Para Python, elija la carga de trabajo Desarrollo de Python y [seleccione Instalar](screenshots/screenshot75.png)
+  De forma predeterminada, la carga de trabajo de Python se instala para todos los usuarios de un equipo en la siguiente ubicación:
+
+    %ProgramFiles%\Microsoft Visual Studio\<VS_version>\<VS_edition>Common7\IDE\Extensions\Microsoft\Python
+
+  El <VS_version> es 2022 y <VS_edition> es Comunidad, Profesional o Empresarial.
+  
 - **Verificación:** [Cómo confirmar que funciona]
+
+``Prueba de la instalación``
+Compruebe rápidamente la instalación de compatibilidad con Python:
+
+``Paso 1`` Inicie Visual Studio.
+
+``Paso 2``Seleccione Alt + I para abrir la ventana interactiva de Python.
+
+``Paso 3``En la ventana, escriba la instrucción 2+2.
+[La salida de la instrucción 4 se muestra en la ventana. Si no ve la salida correcta, vuelva a comprobar los pasos.](screenshots/screenshot76.png).
+
 
 ### Configuración en VS Code
 
@@ -784,20 +807,288 @@ Uso práctico:
 *Para Java:*
 - **Paquete completo de Java**: Incluye compilación, debugging y gestión de proyectos
 
+``Paquete completo de Java (Extension Pack for Java)``
+  📦 Nombre oficial: Extension Pack for Java
+  📍 Editor: Microsoft
+  🔗 Visual Studio Marketplace - Extension Pack for Java
+
+``¿Qué incluye este paquete?``
+
+El Extension Pack for Java instala automáticamente todas las herramientas necesarias para desarrollar, compilar, ejecutar y depurar aplicaciones Java dentro de VS Code.
+Incluye las siguientes extensiones:
+
+Extensión	Funcionalidad principal
+*Language Support for Java™ by Red Hat*:	Agrega soporte al lenguaje Java (autocompletado, linting, navegación).
+*Debugger for Java*:	Permite ejecutar y depurar código paso a paso dentro del editor.
+*Java Test Runner*:	Permite ejecutar y gestionar pruebas unitarias (JUnit, TestNG).
+*Maven for Java*:	Facilita la gestión de dependencias y construcción de proyectos Maven.
+*Project Manager for Java*:	Administra proyectos, paquetes, clases y estructuras de carpetas Java.
+
+``Instalación paso a paso``
+
+``Paso 1``Abre Visual Studio Code.
+
+``Paso 2`` Ve al menú lateral izquierdo y selecciona el icono de Extensiones (Ctrl + Shift + X).
+
+``Paso 3``En el cuadro de búsqueda, escribe:
+
+        Extension Pack for Java
+
+``Paso 4``Selecciona la extensión publicada por Microsoft y haz clic en Instalar.
+
+``Paso 5``VS Code instalará automáticamente todas las extensiones que forman parte del [paquete.](screenshots/screenshot77.png)
+
+``Seleccionar el JDK en VS Code``
+
+Abre Comando rápido con *Ctrl + Shift + P* Escribe:
+
+          Java: Configure Java Runtime
+
+Selecciona el JDK detectado o agrega la ruta manualmente.
+
+``Probar el entorno``
+
+Crea un archivo Main.java con el siguiente código:
+
+  public class Main {
+      public static void main(String[] args) {
+          System.out.println("¡Java funcionando en VS Code!");
+      }
+  }
+Ejecuta con el botón ▶️ Run o usando Ctrl + F5.
+
 *Para Python:*
 - **Soporte oficial de Python**: Extensión completa con intérprete y debugging
 
+``Extensión oficial de Python (Microsoft)``
+📦 Nombre oficial: Python
+📍 Editor: Microsoft
+🔗 Visual Studio Marketplace – Python Extension
+
+``Descripción general``
+La extensión oficial de Python para Visual Studio Code proporciona un entorno completo para programar en este lenguaje.
+Incluye soporte para:
+--Interpretación y ejecución de código Python
+--Depuración (debugging) paso a paso
+--Gestión de entornos virtuales y dependencias
+--Integración con Jupyter Notebooks
+--Compatibilidad con herramientas de formateo y linting (como Black, Flake8 o Pylint)
+--Ejecución de tests con unittest o pytest
+
+``Instalación paso a paso``
+
+``Paso 1``Abre Visual Studio Code.
+
+``Paso 2``Ve al panel de Extensiones (icono cuadrado en la barra lateral izquierda o Ctrl + Shift + X).
+
+``Paso 3``En el cuadro de búsqueda escribe:
+          *Python*
+``Paso 4``Selecciona la extensión Python publicada por Microsoft.
+
+``Paso 5``Haz clic en Instalar.
+
+``Paso 6``(Opcional) Instala también las extensiones complementarias recomendadas:
+
+--Pylance → ofrece autocompletado y análisis de tipos avanzado.
+--Jupyter → permite ejecutar notebooks .ipynb dentro del editor.
+--Black Formatter → mantiene el código con formato limpio según PEP 8.
+
+``Configuración inicial del entorno Python``
+
+``Paso 1``Instalar Python en tu sistema
+
+    --Descarga la versión más reciente desde python.org
+    --Durante la instalación, marca la opción ✅ “Add Python to PATH”.
+
+``Paso 2``Seleccionar el intérprete en VS Code
+
+    --Abre la paleta de comandos (Ctrl + Shift + P).
+    --Escribe y selecciona:
+          Python: Select Interpreter
+    --Elige la versión de Python que instalaste (por ejemplo, Python 3.12.0).
+
+``Verificación del funcionamiento``
+
+``Paso 1`` Crea un nuevo archivo llamado hola.py y escribe el siguiente código:
+
+    print("¡Python funcionando correctamente en VS Code!")
+
+``Paso 2``Guarda el archivo (Ctrl + S).
+
+``Paso 3``Ejecuta el programa con uno de los siguientes métodos:
+
+  --Botón ▶️ Run Python File (arriba a la derecha).
+  --Menú Ejecutar → Iniciar sin depurar.
+  --O presiona Ctrl + F5.
+
+``Paso 4``Verifica que aparezca la salida en el panel de terminal:
+
+        ¡Python funcionando correctamente en VS Code!
+
+``Herramientas de debugging básicas``
+La extensión permite depurar programas Python fácilmente:
+
+Acción	
+🔴 *Punto de interrupción*:	Detiene la ejecución en una línea específica.	F9
+▶️ *Iniciar depuración*:	Ejecuta el programa en modo debug.	F5
+⏩ *Paso sobre (Step Over)*:	Ejecuta la siguiente línea sin entrar en funciones.	F10
+⏬ *Paso dentro (Step Into)*:	Entra dentro de una función o método.	F11
+⏹️ *Detener depuración*:	Finaliza la sesión de depuración.	Shift + F5
+Durante la depuración puedes inspeccionar variables, evaluar expresiones y ver la pila de llamadas en tiempo real.
+
 *Para otros lenguajes:*
 - Busca la extensión oficial del lenguaje que proporcione soporte completo
+*Para F#*
+``Extensión oficial de F# (Ionide for F#)``
+📦 Nombre oficial: Ionide-fsharp
+📍 Editor: Ionide
+🔗 Visual Studio Marketplace – Ionide-fsharp
+
+``Descripción general``
+
+La extensión Ionide for F# proporciona soporte completo para desarrollo en F# dentro de Visual Studio Code.
+Está basada en el ecosistema .NET SDK y ofrece todas las herramientas necesarias para programar, depurar y gestionar proyectos en este lenguaje funcional.
+Incluye:
+
+--Reconocimiento de sintaxis y resaltado de código.
+--Autocompletado inteligente (IntelliSense) y análisis de tipos.
+--Soporte para proyectos .fsproj y .sln.
+--Ejecución y depuración de aplicaciones F#.
+--Integración con el CLI de .NET.
+--Explorador de proyectos y dependencias.
+
+``Instalación paso a paso``
+
+``Paso 1`` Abre Visual Studio Code.
+
+``Paso 2``Ve al menú lateral izquierdo y selecciona Extensiones (Ctrl + Shift + X).
+
+``Paso 3``En el cuadro de búsqueda, escribe:
+
+        Ionide-fsharp
+
+``Paso 4``Selecciona la extensión Ionide-fsharp publicada por Ionide y haz clic en Instalar.
+
+``Requisitos previos``
+Antes de poder usar F# en VS Code, necesitas instalar el SDK de .NET:
+Ve a la página oficial de descargas:
+👉 https://dotnet.microsoft.com/download
+
+Descarga e instala el .NET SDK (no solo el runtime).
+Verifica la instalación desde la terminal:
+    dotnet --version
+Resultado esperado:
+    8.0.x
+
+``Configuración inicial del entorno F#``
+Crear un nuevo proyecto F#:
+--Abre la terminal integrada en VS Code (Ctrl + ñ o `Ctrl + ``).
+--Ejecuta:
+    dotnet new console -lang "F#" -o HolaFSharp
+    cd HolaFSharp
+--Esto crea un proyecto básico de consola en F#.
+
+``Abrir el proyecto en VS Code:``
+--Abre la carpeta HolaFSharp creada con:
+    code .
+--VS Code detectará automáticamente el entorno F# y cargará la extensión Ionide.
+
+``Verificación del funcionamiento``
+
+``Paso 1`` Abre el archivo Program.fs y verifica el siguiente código:
+
+    // Programa básico en F#
+    open System
+
+    [<EntryPoint>]
+    let main argv =
+        printfn "¡F# funcionando correctamente en VS Code!"
+        0
+
+``Paso 2``Guarda los cambios (Ctrl + S).
+
+``Paso 3``Ejecuta el programa desde la terminal:
+    dotnet run
+Resultado esperado:
+    ¡F# funcionando correctamente en VS Code!
+
+Herramientas de debugging
+
+La extensión Ionide-fsharp integra el sistema de depuración de VS Code a través de .NET Debugger (C#), por lo que puedes usar las mismas herramientas básicas:
+
+🔴 *Punto de interrupción*	Detiene la ejecución en una línea específica.	F9
+▶️ *Iniciar depuración*	Ejecuta el programa en modo debug.	F5
+⏩ *Paso sobre (Step Over)*	Ejecuta la siguiente línea sin entrar en funciones.	F10
+⏬ *Paso dentro (Step Into)*	Entra dentro de una función o llamada.	F11
+⏹️ *Detener depuración	Finaliza* la sesión de depuración.	Shift + F5
+
+``Para configurar la depuración por primera vez:``
+
+``Paso 1``Abre la pestaña Ejecutar y depurar (Run and Debug) en la barra lateral izquierda.
+
+``Paso 2``Haz clic en "Crear un archivo launch.json".
+
+``Paso 3``Elige la opción “.NET Core”.
+
+``Paso 4``VS Code generará un archivo launch.json para iniciar el depurador automáticamente.
 
 **Configuraciones específicas aplicadas:**
 [Documentar los ajustes que se realizaron, como configuración del intérprete, formateo automático, linting, etc.]
 
+``Python``
+--Intérprete: Seleccionado vía Ctrl + Shift + P → Python: Select Interpreter para usar el entorno virtual correcto.
+--Linting: Activado Pylint para detectar errores de sintaxis y estilo en tiempo real.
+--Formateo automático: Configurado Black como formateador predeterminado (Format On Save).
+--Entorno virtual: venv para aislar dependencias.
+--Debugging: Configurado en launch.json para depuración paso a paso con breakpoints.
+
+``Java``
+--JDK: Configurado JDK 17 vía Java: Configure Java Runtime.
+--Gestión de proyectos: Maven integrado para construcción y manejo de dependencias.
+--Debugging: F5 con breakpoints para depuración de proyectos Java.
+--Formateo de código: Estilo Eclipse/Google Java Style para uniformidad.
+
+``F#``
+--.NET SDK: SDK 8.0 instalado para compilar y ejecutar proyectos.
+--Extensión: Ionide activada para IntelliSense, resaltado de sintaxis y gestión de proyectos.
+--Debugging: Integrado con .NET Debugger, permite inspección de variables y breakpoints.
+--Formateo de código: Ionide Formatter para mantener consistencia en el estilo funcional.
+
+``C# (opcional si se agrega)``
+
+--.NET SDK: Configurado para desarrollo en C#.
+--Extensión: C# (Microsoft) instalada para IntelliSense, debugging y gestión de proyectos.
+--Debugging: F5 con breakpoints y control de ejecución paso a paso.
+--Formateo de código: Configuración de estilo C# según conveniencia del proyecto.
+
+``Ajustes generales en VS Code``
+
+--Format On Save: Activado (true) para todos los lenguajes configurados.
+--Terminal integrado: Configurado con PowerShell o Bash según el sistema operativo.
+--Git: Extensión GitLens instalada para historial y autoría de cambios.
+--Atajos de depuración: F5 (Iniciar), F10 (Step Over), F11 (Step Into), Shift+F5 (Detener).
+
 ### Proyecto de Ejemplo
 
 **Código desarrollado:**
-```[lenguaje]
+```[java]
 // Código de ejemplo aquí
+
+public class HolaMundo {
+
+    public static final String hello = "hello ";
+        public static void main(String[] args) {
+
+        String nombre = "Jhonny";
+        mensaje(hello + nombre);
+
+        nombre = "harold";
+        mensaje(hello + nombre);
+    }
+     public static void mensaje(String mensaje) {
+        System.out.println(mensaje);
+    }
+}
 // Comentarios explicativos
 ```
 
