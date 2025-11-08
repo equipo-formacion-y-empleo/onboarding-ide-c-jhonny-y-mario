@@ -1095,21 +1095,127 @@ public class HolaMundo {
 **Proceso de ejecución:**
 [Describir cómo ejecutar el código]
 
+``Guardar el archivo``
+
+--Abre un editor de texto o IDE (por ejemplo: VS Code, IntelliJ, Eclipse o incluso el Bloc de notas).
+--Copia tu código Java en un archivo nuevo.
+--Guarda el archivo con el nombre de la clase y la extensión .java.
+En este caso:
+
+HolaMundo.java
+
+⚠️ Nota: El nombre del archivo debe coincidir exactamente con el nombre de la clase public class HolaMundo.
+
+``Compilar el código``
+
+Antes de ejecutar un programa Java, necesitas compilarlo a bytecode:
+
+``Paso 1`` Abre la terminal o consola de comandos.
+
+``Paso 2`` Navega a la carpeta donde guardaste HolaMundo.java.
+
+``Paso 3`` Escribe el siguiente comando para compilar:
+
+javac HolaMundo.java
+
+Si todo está correcto, este comando no mostrará errores y generará un archivo llamado:
+
+      HolaMundo.class
+
+Este archivo contiene el bytecode que la Máquina Virtual de Java (JVM) puede ejecutar.
+
+``Ejecutar el programa``
+Para ejecutar tu programa:
+
+java HolaMundo
+
+Nota: No pongas .class al final. Solo el nombre de la clase.
+
+``Resultado esperado``
+
+En la consola deberías ver:
+
+hello Jhonny
+hello Harold
 ---
 
 ## Configuraciones Recomendadas
 
 **Configuraciones generales:**
 [Documentar configuraciones que se consideran útiles para cualquier desarrollador]
+Configuraciones generales:
+
+JDK (Java Development Kit):
+
+Instalar la versión más reciente de JDK 17 o JDK 20, según tu proyecto.
+
+Configurar la variable de entorno JAVA_HOME apuntando al directorio del JDK.
+
+Agregar %JAVA_HOME%\bin (Windows) o $JAVA_HOME/bin (Linux/Mac) al PATH.
+
+IDE o editor de código:
+
+IntelliJ IDEA Community o Ultimate (recomendado para proyectos grandes).
+
+Eclipse IDE (alternativa gratuita).
+
+VS Code con extensión Java Extension Pack (ligero y flexible).
+
+Codificación y formato:
+
+Configurar el estilo de código según las guías de Java: sangrías de 4 espacios, nombres de variables camelCase, nombres de clases PascalCase.
+
+Activar “Auto-Format on Save” en tu IDE para mantener el código limpio.
 
 **Herramientas adicionales:**
 [Extensions, herramientas CLI, o utilidades que se consideran beneficiosas]
+Maven o Gradle: para gestión de dependencias y construcción de proyectos.
+
+Git: para control de versiones.
+
+Extensions recomendadas en VS Code:
+
+Language Support for Java™ by Red Hat
+
+Debugger for Java
+
+Maven for Java
+
+CLI Utilities:
+
+javadoc para documentación automática.
+
+jar para empaquetar aplicaciones Java.
 
 **Solución de problemas comunes:**
 [Problemas frecuentes durante la configuración y sus soluciones]
 
+Problema: javac no se reconoce
+Causa común: PATH no apunta al JDK
+Solución: Agregar %JAVA_HOME%\bin (Windows) o $JAVA_HOME/bin (Linux/Mac) al PATH
+
+Problema: Error de versión incompatible
+Causa común: JDK no coincide con la versión del proyecto
+Solución: Instalar la versión correcta de JDK y actualizar JAVA_HOME
+
+Problema: Dependencias Maven no se descargan
+Causa común: Configuración de proxy o repositorio
+Solución: Revisar el archivo settings.xml de Maven y la conectividad a internet
+
+Problema: Proyecto no compila en IDE
+Causa común: Configuración de JDK incorrecta
+Solución: Revisar el JDK configurado en el IDE (Project Structure / Build Path)
+
 **Recursos útiles:**
 - Enlace [Enlace]: [Descripción]
 - Documentación [Documentación]: [Descripción]
+[Documentación VS Code](https://code.visualstudio.com/docs)
+- [Documentación .NET](https://docs.microsoft.com/es-es/dotnet/)
+- [Guía C# en VS Code](https://code.visualstudio.com/docs/languages/csharp)
+- [Documentación Visual Studio](https://docs.microsoft.com/es-es/visualstudio/)
+- Documentación oficial de Java: https://docs.oracle.com/en/java/
+- [chatgpt] : https://chatgpt.com/
+ – Guías de referencia, API y tutoriales oficiales.
+
 
 ---
