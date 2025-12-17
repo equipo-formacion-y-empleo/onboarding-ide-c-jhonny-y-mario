@@ -14,22 +14,22 @@
 
 ### Instalación y Verificación
 
-**Método de instalación:** [Desde la pagina oficial del Visual Studio Code: https://code.visualstudio.com/](screenshots/screenshot1.png)
+**Método de instalación:** ![Desde la pagina oficial del Visual Studio Code: https://code.visualstudio.com/](screenshots/screenshot1.png)
 
 > **💡 Sobre las imágenes**: Incluye capturas de pantalla para mostrar los diferentes pasos o resultados. Ejemplo: ![Descripción clara del contenido](screenshots/placeholder.png)`
 
 **Proceso de instalación:**
 - **Descarga:**
- `Paso 1` [Ir a la pagina *http://code.visualstudio.com/*,](screenshots/screenshot1.png).
- `Paso 2` hacer click en el boton *download for windows* o el sistema de su preferencia, se descargara un archivo insatalador como [VSCodeUserSETUP-X64](screenshots/screenshot3.png)
+ `Paso 1` ![Ir a la pagina *http://code.visualstudio.com/*,](screenshots/screenshot1.png).
+ `Paso 2` hacer click en el boton *download for windows* o el sistema de su preferencia, se descargara un archivo insatalador como ![VSCodeUserSETUP-X64](screenshots/screenshot3.png)
 - **Opciones del instalador:** 
-  `Paso 3` Buscaremos la direccion donde se guardo el archivo, ejecutamos el archivo, [aceptar terminos y licencias!](screenshots/screenshot4.png), dar click en next,
-  `Paso 4` elegiremos la [ubicacion donde instalar o lo mantenemos con la configuracion predeterminada.](screenshots/screenshot5.png)
-  `Paso 5` Elige si deseas cambiar el nombre de la carpeta de accesos directos en el menú Inicio o si no deseas instalar accesos directos en absoluto. [Haz clic en     Next.](screenshots/screenshot6.png)
-  `Paso 6` Selecciona las tareas adicionales, por ejemplo: crear un icono en el escritorio o añadir opciones al menú contextual de Windows Explorer. [Haz clic en Next.](screenshots/screenshot7.png)
-  `Paso 7` Haz clic en [Install para iniciar la instalación.](screenshots/screenshot8.png)
-  `Paso 8` El programa está instalado y listo para usar. [Haz clic en Finish para finalizar la instalación y lanzar el programa.](screenshots/screenshot9.png)
-- **Verificación:** Desde la interfaz, abrimos Visual Studio Code, si ves en la ventana principal con opciones como "Open Folder", "New File", etc., [la instalación fue exitosa.](screenshots/screenshot10.png)
+  `Paso 3` Buscaremos la direccion donde se guardo el archivo, ejecutamos el archivo, ![aceptar terminos y licencias!](screenshots/screenshot4.png), dar click en next,
+  `Paso 4` elegiremos la ![ubicacion donde instalar o lo mantenemos con la configuracion predeterminada.](screenshots/screenshot5.png)
+  `Paso 5` Elige si deseas cambiar el nombre de la carpeta de accesos directos en el menú Inicio o si no deseas instalar accesos directos en absoluto.![Haz clic en     Next.](screenshots/screenshot6.png)
+  `Paso 6` Selecciona las tareas adicionales, por ejemplo: crear un icono en el escritorio o añadir opciones al menú contextual de Windows Explorer.![Haz clic en Next.](screenshots/screenshot7.png)
+  `Paso 7` Haz clic en ![Install para iniciar la instalación.](screenshots/screenshot8.png)
+  `Paso 8` El programa está instalado y listo para usar. ![Haz clic en Finish para finalizar la instalación y lanzar el programa.](screenshots/screenshot9.png)
+- **Verificación:** Desde la interfaz, abrimos Visual Studio Code, si ves en la ventana principal con opciones como "Open Folder", "New File", etc., ![la instalación fue exitosa.](screenshots/screenshot10.png)
 
 *Es posible documentar múltiples métodos.*
 
@@ -48,7 +48,7 @@
 `EL Panel` se encuentra en la parte inferior y tiene la terminal integrada, los problemas detectados, la salida de depuración y los resultados de búsqueda.
 
 `La Barra de Estados` en la parte inferior proporciona información contextual sobre el archivo actual, incluyendo el lenguaje de programación, la codificación, la posición del cursor y el estado del control de versiones.
-[aqui veremos las áreas ya mencionadas](screenshots/screenshot13.png)
+![aqui veremos las áreas ya mencionadas](screenshots/screenshot13.png)
 
 *Edición de código*
  en el grupo de edicion es donde se ejecuta esta funcion,practicamente donde se escribe el codigo.
@@ -56,59 +56,60 @@
   *Uso de la paleta de comandos*
 -  representa una de las características más potentes. Accesible mediante *Ctrl+Shift+P (Windows/Linux)* o *Cmd+Shift+P (macOS)*, proporciona acceso instantáneo a prácticamente cualquier comando disponible en el editor.Desde allí puedes ejecutar cualquier acción, como:
 
-  ºCambiar el tema [(Preferences: Color Theme)](screenshots/screenshot14.png)
+  ºCambiar el tema ![(Preferences: Color Theme)](screenshots/screenshot14.png)
 
-  ºInstalar extensiones [(Extensions: Install Extensions)](screenshots/screenshot15.png)
+  ºInstalar extensiones ![(Extensions: Install Extensions)](screenshots/screenshot15.png)
 
   *Gestión de archivos y carpetas* 
   Los espacios de trabajo en VSCode permiten organizar proyectos complejos que involucran múltiples carpetas o repositorios. Un espacio de trabajo puede incluir configuraciones específicas, extensiones recomendadas y ajustes de depuración particulares como:
 
-  ºAbrir una carpeta: [Archivo → Abrir carpeta](screenshots/screenshot11.png)
+  ºAbrir una carpeta: ![Archivo → Abrir carpeta](screenshots/screenshot11.png)
 
-  ºCrear archivos: clic derecho en el Explorador → [Nuevo archivo.](screenshots/screenshot12.png)
+  ºCrear archivos: clic derecho en el Explorador → ![Nuevo archivo.](screenshots/screenshot12.png)
 
   ºGuardar: Ctrl + S
 
 ### Personalización del Entorno
 
-**Configuraciones aplicadas:** [Describir las personalizaciones que se realizaron]
+**Configuraciones aplicadas:** ![Describir las personalizaciones que se realizaron]
 
 *Ejemplos de configuraciones útiles (elegir las que se consideren relevantes):*
 
 **Temas e iconos:**
 Ejemplos:
-- Se instalo una extension llamada *Palenight Theme* para Un tema elegante y atractivo, inspirado en Material Design, para Visual [Studio Code.](screenshots/screenshot16.png)
+- Se instalo una extension llamada *Palenight Theme* para Un tema elegante y atractivo, inspirado en Material Design, para Visual ![Studio Code.](screenshots/screenshot16.png)
   
 **Configuración de fuentes:**
 
 Ejemplos:
 - -Se instalo *Better Comments*
-La extensión Comentarios mejorados te ayudará a crear comentarios más fáciles de entender en tu [código.](screenshots/screenshot17.png)
+La extensión Comentarios mejorados te ayudará a crear comentarios más fáciles de entender en tu ![código.](screenshots/screenshot17.png)
 
 **Atajos de teclado útiles:**
 Ejecutar archivo	Ctrl + F5
-Abrir paleta de comandos	Ctrl + Shift + [P](screenshots/screenshot14.png)
-Abrir configuración	[Ctrl + ,](screenshots/screenshot18.png)
+Abrir paleta de comandos	Ctrl + Shift + ![P](screenshots/screenshot14.png)
+Abrir configuración	![Ctrl + ,](screenshots/screenshot18.png)
 Mover línea	Alt + ↑ o Alt + ↓
-Ir a definición	[F12](screenshots/screenshot19.png)
-Formatear documento	[Shift + Alt + F](screenshots/screenshot20.png)
+Ir a definición	![F12](screenshots/screenshot19.png)
+Formatear documento	![Shift + Alt + F](screenshots/screenshot20.png)
 
 **Configuración del editor:**
 
 - Formateo automático al guardar
    *editor.formatOnSave": false*, lo cambiaremos a :
    *editor.formatOnSave": true,*
-   Cada vez que guardas (Ctrl + S), el código se formatea automáticamente según las reglas del lenguaje o el formateador [configurado.](screenshots/screenshot22.png)
+   Cada vez que guardas (Ctrl + S), el código se formatea automáticamente según las reglas del lenguaje o el formateador 
+   ![configurado.](screenshots/screenshot22.png)
 
 - Word wrap para líneas largas
 -  *"editor.wordWrap": "off",*, lo cambiaremos a :
    *"editor.wordWrap": "on"*
 Evita el scroll horizontal en líneas muy largas.
-El texto se ajusta automáticamente al ancho de la ventana del [editor.](screenshots/screenshot22.png)
+El texto se ajusta automáticamente al ancho de la ventana del ![editor.](screenshots/screenshot22.png)
 
 **Terminal integrada:**
 - PowerShell como terminal predeterminado
-  Esto Define que cada vez que abras la terminal integrada (Ctrl + ñ o Ctrl + ` ), se inicie una sesión de PowerShell en lugar de CMD u [otro shell.](screenshots/screenshot23.png)
+  Esto Define que cada vez que abras la terminal integrada (Ctrl + ñ o Ctrl + ` ), se inicie una sesión de PowerShell en lugar de CMD u ![otro shell.](screenshots/screenshot23.png)
 
   `Configuración de perfil personalizado`
  esta es una Estructura básica de configuración, en el archivo settings.json de VS Code escribimos:
@@ -157,35 +158,35 @@ El .NET SDK (Software Development Kit) contiene el compilador, las herramientas 
 1. **Descarga e instalación:** 
 
 **DESCARGA**
-  `Paso 1`Ir a la pagina oficial: [https://dotnet.microsoft.com/download](screenshots/screenshot24.png), selecciona la versión .NET 8.0 (LTS) o superior.
+  `Paso 1`Ir a la pagina oficial: ![https://dotnet.microsoft.com/download](screenshots/screenshot24.png), selecciona la versión .NET 8.0 (LTS) o superior.
 
-  `Paso 2` hacer click en el boton *descargar SDK X64 de .NET* o superior, se descargara un archivo insatalador [como:](screenshots/screenshot25.png) 
+  `Paso 2` hacer click en el boton *descargar SDK X64 de .NET* o superior, se descargara un archivo insatalador ![como:](screenshots/screenshot25.png) 
 
 **Opciones del instalador:**
-  `Paso 1` Buscaremos la direccion donde se guardo el archivo, ejecutamos el [archivo.exe](screenshots/screenshot25.png)
+  `Paso 1` Buscaremos la direccion donde se guardo el archivo, ejecutamos el ![archivo.exe](screenshots/screenshot25.png)
   
-  `Paso 2` Ejecuta el instalador y sigue las instrucciones [predeterminadas.](screenshots/screenshot26.png)
+  `Paso 2` Ejecuta el instalador y sigue las instrucciones ![predeterminadas.](screenshots/screenshot26.png)
   `Paso 3` al dar en *instalar* nos pedira permiso para instalacion le damos en *SI* y comenzara la [instalacion](screenshots/screenshot27.png)
-  `Paso 4` esperamos que termine de instalar y por ultimo le damos en [cerrar](screenshots/screenshot28.png)
+  `Paso 4` esperamos que termine de instalar y por ultimo le damos en ![cerrar](screenshots/screenshot28.png)
    
- **Verificación:** [Cómo comprobar que funciona]
+ **Verificación:** ![Cómo comprobar que funciona]
 `Paso 1` Despues de instalar podemos abrir la terminal integrada VS Code o una ventana de PowerShell y ejecutamos:
 
-  dotnet [--version](screenshots/screenshot29.png)
+  dotnet ![--version](screenshots/screenshot29.png)
 
 `Paso 2` Luego verifica la información completa del entorno:
 
-  dotnet [--info](screenshots/screenshot29.png)
+  dotnet ![--info](screenshots/screenshot29.png)
 
 ### Configuración para C#
 
 **Extensiones esenciales:**
 - **Soporte oficial para C#**: 
  `Paso 1` Abre Visual Studio Code.
- `Paso 2` Ve al menú de Extensiones o presiona *Ctrl+Shift+X* (Windows/Linux) o *Cmd+Shift+X* [(Mac).](screenshots/screenshot30.png)
+ `Paso 2` Ve al menú de Extensiones o presiona *Ctrl+Shift+X* (Windows/Linux) o *Cmd+Shift+X* ![(Mac).](screenshots/screenshot30.png)
  `Paso 3`En la barra de búsqueda escribe el nombre de la extensión. Por ejemplo:
          C# (la oficial de Microsoft)
- Haz clic en la extensión que aparece en los resultados y Presiona [Instalar.+](screenshots/screenshot31.png)
+ Haz clic en la extensión que aparece en los resultados y Presiona ![Instalar.+](screenshots/screenshot31.png)
 
 **Configuraciones específicas para C#:** 
 [Describir las configuraciones que se aplicaron, como formateo automático, intellisense, o configuraciones del compilador]
@@ -265,16 +266,16 @@ Para establecer un punto de interrupción en el código fuente:
   Haga clic en el margen izquierdo situado junto a una línea de código. También puede seleccionar la línea y presionar *F9* y seleccionar *Depurar>Alternar punto de interrupción*, o hacer clic con el botón derecho y seleccionar *Punto de interrupción>Insertar punto de interrupción*. El punto de interrupción aparece como un punto rojo en el margen izquierdo.
 
 Para la mayoría de los lenguajes (incluido C#), Visual Studio resalta automáticamente el punto de interrupción y las líneas de ejecución actuales. Para algunos lenguajes, como C++, que no está resaltado de forma predeterminada, puede activar el resaltado del punto de interrupción y las líneas actuales.
-Abra el cuadro de diálogo *Opciones de herramientas*>, expanda la sección *Depuración*> y active la casilla *Resaltar toda la línea de origen para los puntos de interrupción y la instrucción actual (solo C++)*. [Seleccione *Aceptar* para aplicar el cambio.](screenshots/screenshot32.png)
+Abra el cuadro de diálogo *Opciones de herramientas*>, expanda la sección *Depuración*> y active la casilla *Resaltar toda la línea de origen para los puntos de interrupción y la instrucción actual (solo C++)*. ![Seleccione *Aceptar* para aplicar el cambio.](screenshots/screenshot32.png)
 
 `Ejecutar y depurar`
 Para depurar, presione *F5* o seleccione *Depurar>Iniciar depuración*.
 
 Al depurar, la ejecución se detiene en el punto de interrupción, antes de que se ejecute el código de esa línea. El símbolo del punto de interrupción muestra una flecha amarilla.
 
-En el punto de interrupción del ejemplo siguiente, el valor de testInt sigue siendo 3. Por lo tanto, el valor no ha cambiado desde que se inicializó la variable (se estableció en un valor de 3) porque la instrucción en amarillo aún no se ha [ejecutado.](screenshots/screenshot33.png)
+En el punto de interrupción del ejemplo siguiente, el valor de testInt sigue siendo 3. Por lo tanto, el valor no ha cambiado desde que se inicializó la variable (se estableció en un valor de 3) porque la instrucción en amarillo aún no se ha ![ejecutado.](screenshots/screenshot33.png)
 Cuando el depurador se detiene en el punto de interrupción, se puede consultar el estado actual de la aplicación, incluidos los valores de variable y la pila de llamadas.
-[Por ejemplo, en la ilustración siguiente, puede ver el valor de testInt en una sugerencia de datos y en la ventana de *variables locales.*](screenshots/screenshot34.png)
+![Por ejemplo, en la ilustración siguiente, puede ver el valor de testInt en una sugerencia de datos y en la ventana de *variables locales.*](screenshots/screenshot34.png)
 Estas son algunas instrucciones generales para trabajar con puntos de interrupción.
 
 El punto de interrupción es un comando de alternancia. Puede hacer clic en él, presionar F9, o bien usar *Depurar>Alternar punto de interrupción para eliminarlo o volver a insertarlo.*
@@ -292,7 +293,7 @@ En la ventana *Puntos de interrupción* se pueden ver y administrar todos los pu
 
 En la ventana *Puntos de interrupción* se pueden buscar, ordenar, filtrar, habilitar/deshabilitar o eliminar puntos de interrupción. También puede establecer condiciones y acciones, o agregar una nueva función o punto de interrupción de datos.
 
-Para abrir la ventana *Puntos de interrupción*, seleccione *Depurar>Ventanas>Puntos de interrupción*, o bien presione [*CTRL+Alt+B*.](screenshots/screenshot35.png)
+Para abrir la ventana *Puntos de interrupción*, seleccione *Depurar>Ventanas>Puntos de interrupción*, o bien presione ![*CTRL+Alt+B*.](screenshots/screenshot35.png)
 Para seleccionar las columnas que se van a mostrar en la ventana Puntos de interrupción, seleccione Mostrar columnas. Seleccione un encabezado de columna para ordenar la lista de puntos de interrupción por esa columna.
 
 *Etiquetas de puntos de Interrupción*
@@ -305,7 +306,7 @@ Puede usar etiquetas para ordenar y filtrar la lista de puntos de interrupción 
 *Grupos de puntos de Interrupción*
 En escenarios de depuración complejos, es posible que desee crear grupos de puntos de interrupción para organizar los puntos de interrupción. Esto le permite habilitar y deshabilitar rápidamente agrupaciones lógicas de puntos de interrupción, en función del escenario actual que está intentando depurar.
 
-Puede crear puntos de interrupción en la ventana de *Puntos de interrupción* seleccionando *Nuevo > Grupo de puntos de interrupción* y proporcionando un nombre para el grupo. Para agregar un punto de interrupción a un grupo, haga clic con el botón derecho en el punto de interrupción y elija *Agregar al grupo de puntos de interrupción><nombre de grupo>*. O bien, arrastre y coloque los puntos de [interrupción en el grupo deseado.](screenshots/screenshot36.png)
+Puede crear puntos de interrupción en la ventana de *Puntos de interrupción* seleccionando *Nuevo > Grupo de puntos de interrupción* y proporcionando un nombre para el grupo. Para agregar un punto de interrupción a un grupo, haga clic con el botón derecho en el punto de interrupción y elija *Agregar al grupo de puntos de interrupción><nombre de grupo>*. O bien, arrastre y coloque los puntos de ![interrupción en el grupo deseado.](screenshots/screenshot36.png)
 
 Para establecer un grupo de puntos de interrupción predeterminado, haga clic con el botón derecho en un grupo y seleccione *Establecer como grupo de puntos de interrupción predeterminado*. Al establecer un grupo de puntos de interrupción predeterminado, los puntos de interrupción recién creados se agregan automáticamente al grupo.
 
@@ -353,24 +354,24 @@ Estas características solo están disponibles durante la depuración. Para obte
 
 *Visualización de variables en el editor de Código*
 A menudo, al depurar, necesita una forma rápida de comprobar los valores de propiedad de los objetos en el editor de código y la información sobre datos es una buena forma de hacerlo.
-Cuando el depurador está pausado, pase el ratón sobre un objeto y verá su valor o su valor de [propiedad predeterminado.](screenshots/screenshot37.png)
+Cuando el depurador está pausado, pase el ratón sobre un objeto y verá su valor o su valor de ![propiedad predeterminado.](screenshots/screenshot37.png)
 Si la variable tiene propiedades, puede expandir el objeto para ver todas sus propiedades.
 Para obtener información detallada sobre el uso de sugerencias de datos, consulte Ver valores de datos en sugerencias de datos.
 
 *Visualizar valores de retorno en línea de llamadas a métodos en el editor de código*
 En el código de .NET y C++, puede examinar los valores devueltos al pasar o salir de una llamada de método, lo que puede ser útil cuando el valor devuelto no se almacena en una variable local. Un método se puede usar como parámetro o como valor devuelto de otro método.
-A partir de la versión 17.12 de Visual Studio 2022, puede ver los valores devueltos de las llamadas de método en línea y no solo en la [ventana Autos.](screenshots/screenshot38.png)
-Con Copilot habilitado, también puede obtener asistencia específica relacionada con el valor de retorno en línea mediante el botón Preguntar a Copilot que aparece en la sugerencia de datos para el [valor de retorno.](screenshots/screenshot39.png)
+A partir de la versión 17.12 de Visual Studio 2022, puede ver los valores devueltos de las llamadas de método en línea y no solo en la ![ventana Autos.](screenshots/screenshot38.png)
+Con Copilot habilitado, también puede obtener asistencia específica relacionada con el valor de retorno en línea mediante el botón Preguntar a Copilot que aparece en la sugerencia de datos para el ![valor de retorno.](screenshots/screenshot39.png)
 
 *Establecimiento de una inspección de variables*
 Puede usar una ventana Inspección para especificar una variable (o una expresión) que quiera supervisar.
-Durante la depuración, haga clic derecho sobre un objeto en el editor de código y elija Agregar Vigilancia. [Se abre una ventana de inspección.](screenshots/screenshot40.png)
+Durante la depuración, haga clic derecho sobre un objeto en el editor de código y elija Agregar Vigilancia. ![Se abre una ventana de inspección.](screenshots/screenshot40.png)
 
 En este ejemplo, se ha establecido una inspección para el objeto y puede ver cómo cambia su valor conforme avanza en el depurador. A diferencia de las otras ventanas de variables, las ventanas *Watch* siempre muestran las variables que estás observando (están atenuadas cuando están fuera del ámbito).
 Para obtener más información, vea Establecimiento de una inspección con las ventanas Inspección e Inspección rápida.
 
 *Visualización de valores devueltos de consultas LINQ*
-Mientras esté en pausa en el depurador, puede mantener el puntero sobre cláusulas individuales o segmentos de la consulta LINQ para evaluar el valor devuelto de la consulta [inmediata.](screenshots/screenshot41.png)
+Mientras esté en pausa en el depurador, puede mantener el puntero sobre cláusulas individuales o segmentos de la consulta LINQ para evaluar el valor devuelto de la consulta ![inmediata.](screenshots/screenshot41.png)
 Si tiene Copilot, puede obtener ayuda de inteligencia artificial mientras mantiene el puntero sobre la consulta LINQ. Seleccione el icono de *GitHub Copilot* al final de la información sobre datos para analizar la consulta con Copilot. A continuación, Copilot explica la sintaxis de la consulta LINQ y aclara por qué obtiene el resultado especificado.
 
 *Obtención de ayuda para la inteligencia artificial*
@@ -385,7 +386,7 @@ Las ventanas Automático y Variables locales muestran valores de variables duran
 
   --Para abrir la ventana *Variables locales*, seleccione *Depurar>Ventanas>Variables locales*, o bien presione *Alt+4* durante la depuración.
 
-Las matrices y objetos expandibles aparecen en las ventanas de *Automáticos y Locale*s. Seleccione la flecha situada a la izquierda de un nombre de variable para expandir la vista para mostrar campos y propiedades. Este es un ejemplo de un objeto System.IO.FileStream en la ventana de [*variables locales*:](screenshots/screenshot42.png)
+Las matrices y objetos expandibles aparecen en las ventanas de *Automáticos y Locale*s. Seleccione la flecha situada a la izquierda de un nombre de variable para expandir la vista para mostrar campos y propiedades. Este es un ejemplo de un objeto System.IO.FileStream en la ventana de ![*variables locales*:](screenshots/screenshot42.png)
 Un valor rojo en la ventana *Locales* o *Automático* significa que el valor ha cambiado desde la última evaluación. El cambio podría provenir de una sesión de depuración anterior, o podría ser porque usted ha cambiado el valor en la ventana.
 El formato numérico predeterminado en las ventanas del depurador es decimal. Para cambiarlo a hexadecimal, haga clic con el botón derecho en la ventana *Variables locales* o *Automático*, y seleccione *Presentación hexadecimal*. El cambio afecta a todas las ventanas del depurador.
 
@@ -396,7 +397,7 @@ En el código nativo de C++, es posible que tenga que calificar el contexto de u
 
 *Búsqueda en las ventanas Automático o Variables locales*
 Puede buscar palabras clave en las columnas Nombre, Valor y Tipo de la ventana *Autos* o de la ventana *Locals* mediante la barra de búsqueda situada encima de cada ventana. Presione ENTRAR o seleccione una de las flechas para ejecutar una búsqueda. Para cancelar una búsqueda en curso, seleccione el icono "x" en la barra de búsqueda.
-Use las flechas izquierda y derecha (Mayús+F3 y F3, respectivamente) para desplazarse por las [coincidencias encontradas.](screenshots/screenshot43.png)
+Use las flechas izquierda y derecha (Mayús+F3 y F3, respectivamente) para desplazarse por las ![coincidencias encontradas.](screenshots/screenshot43.png)
 Para que la búsqueda sea más o menos exhaustiva, use la lista desplegable *Búsqueda más profunda* en la parte superior de la ventana *Automóviles* o *Locales* para seleccionar cuántos niveles de profundidad desea buscar en objetos anidados.
 
 *Abrir un visualizador para inspeccionar variables*
@@ -405,7 +406,7 @@ Mientras depuras en Visual Studio, puedes ver cadenas grandes o objetos complejo
   --El visualizador de cadenas muestra cadenas de texto, XML, HTML y JSON que son demasiado largas para una ventana de información o depurador de datos. También puede ayudarle a identificar cadenas malformadas. Para obtener más información, vea Ver cadenas en un visualizador de cadenas.
   --Los visualizadores DataSet e IEnumerable muestran objetos de colección .NET en un visualizador tabular. Para más información, vea Visualizadores tabulares en objetos de Visual Studio.
 Los visualizadores aparecen en las ventanas Automático , sugerencias de datos y otras ventanas del depurador.
-Para abrir el visualizador, la depuración debe estar en pausa. Mantenga el puntero sobre una variable que tenga un valor de visualizador compatible y seleccione el icono de [lupa VisualizerIcon.](screenshots/screenshot44.png)
+Para abrir el visualizador, la depuración debe estar en pausa. Mantenga el puntero sobre una variable que tenga un valor de visualizador compatible y seleccione el icono de ![lupa VisualizerIcon.](screenshots/screenshot44.png)
 Abrir visualizador de cadenas
 
 > **Enfoque práctico**: Concentra tu documentación en las funcionalidades básicas que usarás día a día.
@@ -414,13 +415,13 @@ Abrir visualizador de cadenas
 
 **Creación de proyectos:**
 
-`Paso 1`Abre una terminal en la carpeta donde deseas crear el [proyecto y ejecuta:](screenshots/screenshot45.png)
+`Paso 1`Abre una terminal en la carpeta donde deseas crear el ![proyecto y ejecuta:](screenshots/screenshot45.png)
 
     dotnet new console -n HolaMundo
 
-  Esto crea una carpeta llamada HolaMundo con una estructura [básica de proyecto C#.](screenshots/screenshot46.png)
+  Esto crea una carpeta llamada HolaMundo con una estructura ![básica de proyecto C#.](screenshots/screenshot46.png)
 
-`Paso 2`Abrir en Visual Studio Code, En la terminal, navega a la [carpeta del proyecto:](screenshots/screenshot47.png)
+`Paso 2`Abrir en Visual Studio Code, En la terminal, navega a la ![carpeta del proyecto:](screenshots/screenshot47.png)
 
 cd HolaMundo
 code .
@@ -524,13 +525,13 @@ Acción	Descripción
 `Consola de depuración REPL`
 Las expresiones se pueden evaluar con la función REPL ( bucle de lectura-evaluación-impresión ) de la consola de depuración . Para abrir la consola de depuración, utilice la acción Consola de depuración en la parte superior del panel de depuración o el comando Ver: Consola de depuración ( Ctrl+Mayús+Y ).
 Las expresiones se evalúan después de pulsar Intro y la consola de depuración REPL muestra sugerencias mientras escribe. Si necesita introducir varias líneas, utilice Mayús+Intro entre ellas y, a continuación, envíe todas las líneas para su evaluación con Intro .
-La entrada de la consola de depuración utiliza el modo del editor activo, lo que significa que admite el resaltado de sintaxis, la sangría, el cierre automático de comillas y otras [características del lenguaje.](screenshots/screenshot55.png)
+La entrada de la consola de depuración utiliza el modo del editor activo, lo que significa que admite el resaltado de sintaxis, la sangría, el cierre automático de comillas y otras ![características del lenguaje.](screenshots/screenshot55.png)
 
 ``Depuración de múltiples objetivos``
 Para escenarios complejos que involucran más de un proceso (por ejemplo, un cliente y un servidor), VS Code admite la depuración de múltiples objetivos. Después de iniciar una primera sesión de depuración, puede iniciar otra. Tan pronto como la segunda sesión esté en funcionamiento, la interfaz de usuario de VS Code cambia al modo de múltiples objetivos .
 
-Las sesiones individuales ahora se muestran como elementos de nivel superior en la vista de [*PILA DE LLAMADAS*.](screenshots/screenshot56.png)
---La barra de herramientas de depuración muestra la sesión actualmente activa [(y todas las demás sesiones están disponibles en un menú desplegable).](screenshots/screenshot57.png)
+Las sesiones individuales ahora se muestran como elementos de nivel superior en la vista de ![*PILA DE LLAMADAS*.](screenshots/screenshot56.png)
+--La barra de herramientas de depuración muestra la sesión actualmente activa ![(y todas las demás sesiones están disponibles en un menú desplegable).](screenshots/screenshot57.png)
 --Las acciones de depuración (por ejemplo, todas las acciones de la barra de herramientas de depuración) se ejecutan en la sesión activa. La sesión activa se puede cambiar mediante el menú desplegable de la barra de herramientas de depuración o seleccionando un elemento diferente en la vista de la pila de llamadas .
 
 **Debugging:**
@@ -567,10 +568,10 @@ VS Code también admite configuraciones de lanzamiento compuestas para iniciar v
 ``Crea un archivo de configuración de depuración``
 Para crear un launch.jsonarchivo inicial:
 
-``Paso 1`` Seleccione "Crear un archivo launch.json" en la vista ["Ejecutar y depurar".](screenshots/screenshot58.png)
+``Paso 1`` Seleccione "Crear un archivo launch.json" en la vista !["Ejecutar y depurar".](screenshots/screenshot58.png)
 ``Paso 2`` VS Code intenta detectar tu entorno de depuración. Si no puede hacerlo, puedes seleccionarlo [manualmente:](screenshots/screenshot59.png)
 En función del entorno de depuración seleccionado, VS Code crea una configuración inicial en el launch.jsonarchivo.
-``Paso 3``En la vista Explorador ( Ctrl+Shift+E ), observe que VS Code creó una .vscodecarpeta y agregó el launch.jsonarchivo a su [espacio de trabajo.](screenshots/screenshot60.png)
+``Paso 3``En la vista Explorador ( Ctrl+Shift+E ), observe que VS Code creó una .vscodecarpeta y agregó el launch.jsonarchivo a su ![espacio de trabajo.](screenshots/screenshot60.png)
 Ahora puedes editar el launch.jsonarchivo para añadir más configuraciones o modificar las existentes.
 
 ``Agrega una configuración a launch.json``
@@ -598,7 +599,7 @@ Para iniciar una sesión de depuración con una configuración de lanzamiento:
 
 ``Paso 1`` Seleccione la configuración denominada "Lanzar programa" utilizando el menú desplegable "Configuración" en la vista "Ejecutar y depurar" .
 
-La lista de configuraciones disponibles coincide con la del [launch.jsonarchivo](screenshots/screenshot61.png)
+La lista de configuraciones disponibles coincide con la del ![launch.jsonarchivo](screenshots/screenshot61.png)
 ``Paso 2`` Inicie su sesión de depuración con F5 o seleccione Iniciar depuración (icono de reproducción) en la vista *Ejecutar y depurar.*
 Como alternativa, puede ejecutar su configuración a través de la paleta de comandos ( Ctrl+Shift+P ) filtrando por *Depurar: Seleccionar e iniciar depuración* o escribiendo 'debug 'y seleccionando la configuración que desea depurar.
 
